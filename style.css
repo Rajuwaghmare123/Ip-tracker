@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(161, 78, 78);
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.main-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ip-display, .location-display, .geo-display {
+    font-size: 34px;
+    color: white;
+    margin: 8px;
+
+}
+.track-btn{
+    border: none;
+    background-color: #192a56 ;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 13px 24px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.track-btn:hover{
+    opacity: 0.8;
+}
+h1{
+    text-align: center;
+    margin: 40px;
+    font-family: cursive;
+    color: cornsilk;
+}
+
